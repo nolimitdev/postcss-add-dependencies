@@ -31,7 +31,7 @@ Array of dependencies. Dependency (array item) is object with type and file/dir 
 { type : "missing-dependency", file : "/abs/path/to/file.ext" }
 { type : "context-dependency", file : "/abs/path/to/file.ext" }
 { type : "dir-dependency", file : "/abs/path/to/dir" }
-{ type : "asset", file : "/abs/path/to/dir", content : ..., sourceMap : ..., info : ... }
+{ type : "asset", file : "/abs/path/to/file.ext", content : ..., sourceMap : ..., info : ... }
 ```
 See https://github.com/webpack-contrib/postcss-loader/blob/v6.2.0/src/index.js#L189-L217
 
