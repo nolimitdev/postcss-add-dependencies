@@ -1,6 +1,11 @@
 # postcss-add-dependencies [![](https://img.shields.io/npm/v/postcss-add-dependencies.svg)](https://www.npmjs.com/package/postcss-add-dependencies)
 
 PostCSS plugin to add dependencies that are necessary for webpack to understand when it needs to run recompilation on the changed files.
+This is usefull to watch config files of PostCSS plugins which do not watch it by default. For example:
+- https://www.npmjs.com/package/postcss-mixins `mixinsDir` and `mixinsFiles` options
+- https://www.npmjs.com/package/postcss-custom-properties `importFrom` option
+- https://www.npmjs.com/package/postcss-color-mod-function `importFrom` option
+- and many other plugins and `postcss.config.js` file too
 
 ## Install
 
