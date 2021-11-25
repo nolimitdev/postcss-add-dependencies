@@ -1,0 +1,27 @@
+{
+  "name": "postcss-add-dependencies",
+  "version": "1.0.1",
+  "description": "PostCSS plugin to add dependencies that are necessary for webpack to understand when it needs to run recompilation on the changed files",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nolimitdev/postcss-add-dependencies.git"
+  },
+  "keywords": [
+    "webpack",
+    "postcss",
+    "postcss-loader",
+    "dependencies",
+    "watch",
+    "recompile"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nolimitdev/postcss-add-dependencies/issues"
+  },
+  "homepage": "https://github.com/nolimitdev/postcss-add-dependencies"
+}
